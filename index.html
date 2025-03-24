@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteor Dash</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="scoreboard">
+            <div>Score: <span id="score">0</span></div>
+            <div>High Score: <span id="high-score">0</span></div>
+        </div>
+        <div id="spaceship"></div>
+    </div>
+
+    <div id="menu">
+        <h1>Meteor Dash</h1>
+        <button id="start-button">Start Game</button>
+    </div>
+
+    <div id="game-over">
+        <h2>Game Over!</h2>
+        <p>Final Score: <span id="final-score">0</span></p>
+        <button id="restart-button">Restart</button>
+    </div>
+
+    <!-- On-screen Controls -->
+    <div id="controls">
+        <button id="left-button">⬅</button>
+        <button id="right-button">➡</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
